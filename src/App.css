@@ -1,0 +1,25 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --color-orange: #ff4d30;
+    --color-grey: #706f7b;
+}
+body {
+    font-family: "Inter", sans-serif;
+    color: #1c1c1c;
+    background-color: white;
+}
+main {
+    padding: 40px;
+}
+.orange:hover {
+    background-color: #f3624b;
+}
+.black:hover {
+    background-color: #292929;
+}

@@ -1,0 +1,30 @@
+.about-top {
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+.about-detail {
+    width: 450px;
+}
+.about-detail h3 {
+    font-size: 1.5625rem;
+}
+.about-detail h1 {
+    margin: 20px 0;
+    font-size: 2.8125rem;
+    font-weight: 800;
+}
+.about-detail p {
+    color: var(--color-grey);
+    line-height: 1.5;
+}
+@media (max-width: 900px) {
+    .about-top img {
+        width: 100%;
+    }
+    .about-detail {
+        text-align: center;
+    }
+}

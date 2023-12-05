@@ -1,0 +1,13 @@
+footer {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    background-color: #1c1c1c;
+    color: whitesmoke;
+    padding: 50px;
+}
+@media (max-width: 900px) {
+    footer {
+        text-align: center;
+    }
+}

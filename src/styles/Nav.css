@@ -1,0 +1,71 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    gap: 20px;
+}
+nav a {
+    text-decoration: none;
+    color: #1c1c1c;
+    font-weight: 600;
+}
+.links,
+.sign-in {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.register {
+    background-color: var(--color-orange);
+    color: whitesmoke;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+.bold {
+    font-weight: bold;
+}
+.icon-car {
+    width: 120px;
+    padding-left: 20px;
+}
+.burger-icon,
+.close-icon {
+    display: none;
+}
+.nav-active {
+    color: var(--color-orange);
+}
+@media (max-width: 900px) {
+    .links,
+    .sign-in {
+        display: none;
+    }
+    .burger-icon {
+        display: flex;
+        width: 30px;
+        height: 30px;
+    }
+    .close-icon {
+        display: flex;
+        position: fixed;
+        top: 20px;
+        right: 30px;
+        width: 40px;
+        height: 40px;
+    }
+    .appear {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 40px;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        font-size: 1.6625rem;
+        background-color: whitesmoke;
+    }
+}
