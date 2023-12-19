@@ -4,7 +4,6 @@
     background-size: 700px;
     background-repeat: no-repeat;
     background-position: right;
-    background-image: url("/images/red-car.png");
     background-repeat: no-repeat;
     background-position: right;
 }
@@ -17,28 +16,34 @@
     margin-top: 50px;
     width: 450px;
 }
+
 .big {
     color: var(--color-orange);
 }
+
 .home-plan {
     font-size: 1.4125rem;
     font-weight: 700;
 }
+
 .home-save {
     margin: 15px 0;
     font-size: 3.245rem;
     font-weight: 800;
 }
+
 .home-rent {
     color: var(--color-grey);
     line-height: 2;
 }
+
 .home-btns {
     margin-top: 50px;
     display: flex;
     align-items: center;
     gap: 20px;
 }
+
 .home-btn {
     width: 100%;
     padding: 20px 40px;
@@ -48,27 +53,33 @@
     border: none;
     border-radius: 4px;
 }
+
 .orange {
     background-color: var(--color-orange);
 }
+
 .black {
     background-color: #1c1c1c;
 }
+
 @media (max-width: 490px) {
     .home-top {
         text-align: center;
         background: none;
     }
+
     .home-btns {
         display: flex;
         flex-direction: column;
     }
 }
+
 @media (max-width: 920px) {
     .home-top {
         background-size: 380px;
         background-position: right;
     }
+
     .home-top-detail {
         width: 380px;
     }
@@ -81,12 +92,15 @@
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 20px 0px;
 }
+
 .form h2 {
     margin-bottom: 20px;
 }
+
 label {
     margin: 10px 0;
 }
+
 .s-car {
     width: 100%;
     padding: 10px;
@@ -101,6 +115,7 @@ label {
     display: flex;
     flex-direction: column;
 }
+
 .select-inputs {
     display: flex;
     align-items: center;
@@ -115,6 +130,7 @@ label {
     border: none;
     padding: 15px;
 }
+
 .form label {
     font-weight: 700;
 }
@@ -130,15 +146,18 @@ label {
     padding: 60px;
     text-align: center;
 }
+
 @media (max-width: 900px) {
     .save {
         padding: 20px;
     }
 }
+
 .save h1 {
     font-size: 3.25rem;
     margin-bottom: 20px;
 }
+
 .save p {
     font-size: 1.25rem;
 }
@@ -148,6 +167,7 @@ label {
     display: block;
     margin: 0 auto;
 }
+
 /* three cars */
 @media (max-width: 920px) {
     .main-three {
@@ -162,25 +182,30 @@ label {
     flex-wrap: wrap;
     justify-content: space-around;
 }
+
 .choose-div,
 .choose-three {
     max-width: 500px;
 }
+
 .cross,
 .inclusive,
 .hidden {
     display: flex;
 }
+
 .choose-div h1 {
     margin: 20px 0;
     font-size: 2.5rem;
     font-weight: 800;
 }
+
 .choose-div p {
     margin: 20px 0;
     line-height: 1.5;
     color: var(--color-grey);
 }
+
 .choose-div button {
     width: 150px;
     padding: 15px 20px;
@@ -192,37 +217,45 @@ label {
     font-weight: 600;
     box-shadow: rgba(255, 83, 48, 0.35) 0px 10px 15px 0px;
 }
-.choose-three > div {
+
+.choose-three>div {
     display: flex;
     align-items: center;
     gap: 10px;
 }
+
 .choose-three p {
     margin-top: 20px;
     color: var(--color-grey);
 }
+
 .choose-three h2 {
     font-weight: 800;
 }
+
 .choose-detail,
 .inclusive-detail,
 .hidden-detail {
     margin-top: 50px;
 }
+
 @media (max-width: 920px) {
     .choose-div {
         margin-bottom: 50px;
         text-align: center;
         text-wrap: balance;
     }
-    .choose-three > div {
+
+    .choose-three>div {
         flex-direction: column;
         text-align: center;
     }
+
     .inclusive-detail,
     .hidden-detail {
         margin: 0;
     }
+
     .inclusive img,
     .hidden img {
         margin-top: 20px;

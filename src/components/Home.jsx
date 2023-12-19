@@ -1,9 +1,9 @@
 /* eslint-disable react/no-unescaped-entities */
 import "../styles/Home.css"
-import main from "/images/main.png"
-import drive from "/images/drive.png"
-import money from "/images/money.png"
 import dollar from "/images/dollar.png"
+import drive from "/images/drive.png"
+import main from "/images/main.png"
+import money from "/images/money.png"
 
 import Cars from "./Cars"
 import Plan from "./Plan"
@@ -90,7 +90,7 @@ export default function Home() {
             </div>
 
             <div className="three-cars">
-                <img className="main-three" src={main} alt="main img" />
+                <img className="main-three" src={main} alt="three cars img" loading="eager" />
             </div>
 
             <div className="choose">

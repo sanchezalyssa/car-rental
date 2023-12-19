@@ -21,7 +21,7 @@ export default function Testimonial() {
                         affordable. "
                     </p>
                     <div className="harry-detail">
-                        <img src={harry} alt="harry img" />
+                        <img src={harry} alt="harry img" loading="eager" />
                         <div className="harry-name">
                             <p className="name">Sandy Potter</p>
                             <p>Makati</p>
@@ -33,7 +33,7 @@ export default function Testimonial() {
                         "The car was in great condition and made our trip even better. Highly recommend for this car rental website!"
                     </p>
                     <div className="ron-detail">
-                        <img src={ron} alt="ron img" />
+                        <img src={ron} alt="ron img" loading="eager" />
                         <div className="ron-name">
                             <p className="name">Ron Witzy</p>
                             <p>Manila</p>

@@ -1,11 +1,11 @@
 import { useState } from "react"
 import "../styles/Car.css"
 import Audi from "/images/audi.jpg"
-import Golf from "/images/golf.jpg"
-import Toyota from "/images/toyota.jpg"
 import BMW from "/images/bmw.jpg"
-import Passat from "/images/passat.jpg"
+import Golf from "/images/golf.jpg"
 import Mercedes from "/images/mercedes.jpg"
+import Passat from "/images/passat.jpg"
+import Toyota from "/images/toyota.jpg"
 
 export default function Cars() {
     const [selectedCar, setSelectedCar] = useState("Audi")
@@ -38,7 +38,7 @@ export default function Cars() {
                     ))}
                 </div>
                 {/* Images */}
-                {selectedCar && <img src={image[selectedCar]} alt={`${selectedCar} image`} className="car-type" />}
+                {selectedCar && <img src={image[selectedCar]} alt={`${selectedCar} image`} className="car-type" loading="eager" />}
 
                 <div className="vehicle-rate">
                     <h3>
